@@ -24,7 +24,7 @@ def createLeaves(pos):
     tutel.color('green')
     tutel.fillcolor('green')
     tutel.begin_fill()
-    tutel.circle(15)
+    tutel.circle(20)
     tutel.end_fill()
 
 
