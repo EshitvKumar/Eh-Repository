@@ -12,11 +12,12 @@ tutel.pensize(10)
 height_list = [3, 4, 4, 5, 5, 5, 6, 6, 7]
 tutel.color('brown')
 tutel.setheading(90)
-moveCursor((0, -100))
+moveCursor((0, -200))
 allleft = []
 allright = []
 tutel.forward(100)
 d = {'left' : [], 'right' : []}
+angles = [-30, 60]
 
 #functions
 def createLeaves(pos):
@@ -38,8 +39,8 @@ def createTree(i, pos):
         moveCursor(pos)
         tutel.setheading(90)
         for _ in range(i):
-            tutel.left(random.randint(10, 30))
-            if tutel.heading() > 180:
+            tutel.left(random.randint(angles[0], angles[1]))
+            if tutel.heading() > 270:
                 break
             tutel.forward(10 * height_list[random.randrange(len(height_list))])
             ll.append(tutel.position())
@@ -50,8 +51,8 @@ def createTree(i, pos):
         moveCursor(pos)
         tutel.setheading(90)
         for _ in range(i):
-            tutel.right(random.randint(10, 30))
-            if tutel.heading() > 270:
+            tutel.right(random.randint(angles[0], angles[1]))
+            if tutel.heading() < 270 and tutel.heading() > 180:
                 break
             tutel.forward(10 * height_list[random.randrange(len(height_list))])
             rl.append(tutel.position())
