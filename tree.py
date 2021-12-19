@@ -40,7 +40,7 @@ def createTree(i, pos):
         tutel.setheading(90)
         for _ in range(i):
             tutel.left(random.randint(angles[0], angles[1]))
-            if tutel.heading() > 270:
+            if tutel.heading() > 180:
                 break
             tutel.forward(10 * height_list[random.randrange(len(height_list))])
             ll.append(tutel.position())
@@ -52,7 +52,7 @@ def createTree(i, pos):
         tutel.setheading(90)
         for _ in range(i):
             tutel.right(random.randint(angles[0], angles[1]))
-            if tutel.heading() < 270 and tutel.heading() > 180:
+            if tutel.heading() > 270:
                 break
             tutel.forward(10 * height_list[random.randrange(len(height_list))])
             rl.append(tutel.position())
