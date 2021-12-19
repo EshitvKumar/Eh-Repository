@@ -6,3 +6,5 @@ The Josephus problem is a problem in which n people stand in a circle and person
 Pascal's triangle is self explanatory and the program uses combination to create one (since rCn follow the row of a pascal's triangle)
 
 Tree is a random tree generator
+
+Big letters is big letters
