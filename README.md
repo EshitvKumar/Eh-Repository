@@ -10,3 +10,5 @@ Tree is a random tree generator
 Big letters is big letters
 
 Collatz Conjecture is a maths (yes, maths, not "math") problem where an even number is divided by two and an odd number is multiplied by three and then added to one. It always ends in 1
+
+Numbering System is just converting numbers to words, ie 123456789 is one hundred twenty three million four hundred fifty six thousand seven hundred eighty nine
