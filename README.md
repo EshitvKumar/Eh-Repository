@@ -11,4 +11,6 @@ Big letters is big letters
 
 Collatz Conjecture is a maths (yes, maths, not "math") problem where an even number is divided by two and an odd number is multiplied by three and then added to one. It always ends in 1
 
-Numbering System is just converting numbers to words, ie 123456789 is one hundred twenty three million four hundred fifty six thousand seven hundred eighty nine
+Numbering System is just converting numbers to words in accordance to the international numbering system (as opposed to the indian numbering system which is an entirely different beast that I intend to tackle at a later date), ie 123456789 is one hundred twenty three million four hundred fifty six thousand seven hundred eighty nine
+
+Willshank's Redemption is a program that finds the number of digits in a repeating block in the reciprocal of a prime number. Example: 1/7 is 0.142857142857142857......., here 142857 forms the repeating block and has 6 digits. Inspired by the Numberphile video "The Reciprocal of Primes - Numberphile"
