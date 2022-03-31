@@ -10,9 +10,6 @@ while True:
         break
     rem.append(r)
     r *= 10
-    while r < n:
-        r *= 10
-        s += '0'
     s += str(d)
     a = r
 
